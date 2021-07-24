@@ -12,52 +12,155 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center bg-info">
-                <p class="h1 text-uppercase">bootstrap 5</p>
+            <div class="col-12 text-center bg-dark text-white">
+                <p class="fs-2 text-uppercase">bootstrap 5</p>
+                <p class="fs-6 text-uppercase">prácticas Grid</p>
             </div>
             <div class="col-12 col-md-6 bg-danger text-white">
-                <p class="fs-4">class="col-6 bg-danger text-white"</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum architecto alias quisquam necessitatibus quas corrupti ipsam quasi doloremque reprehenderit minus. Aliquam tenetur doloremque facilis! Atque fugiat aperiam dolorem provident dolore?
-                </p>
+                <p class="fs-4">col-6 bg-danger text-white</p>
+                <p>Lorem ipsum dolor sit amet.</p>
                 <input type="submit" class="btn btn-warning" value="Save">
             </div>
-            <div class="col-6 bg-dark text-white">
-                <p> </p>
-                <p class="fs-4">font size ."fs-4" class="col-6 bg-dark text-white"</p>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, numquam! Sed eius dolorum, excepturi rerum magni dolor iure labore totam eaque nihil facilis libero quidem nobis incidunt veritatis corrupti ad?
-                </p>
+            <div class="col-12 col-md-6 bg-info text-light">
+                <p class="fs-4">col-6 bg-info text-white</p>
+                <p>Lorem ipsum dolor sit amet.</p>
                 <input type="submit" class="btn btn-light" value="Save">
             </div>
-            <div class="col-6 bg-light">
-                <p class="fs-4">class="col-12 bg-light"</p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis veritatis sunt maiores, eveniet
-                    ratione modi est ea tempore quos. Itaque eaque veritatis quia suscipit, voluptas dolore explicabo ex
-                    rem?
-                </p>
+            <div class="col-12 col-md-6 bg-light">
+                <p class="fs-4">col-12 bg-light</p>
+                <p>Lorem ipsum dolor sit amet.</p>
                 <input type="submit" class="btn btn-dark" value="Save">
             </div>
-            <div class="col-6 bg-success text-white">
-                <p class="fs-4">class="col-12 bg-success text-white"</p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis veritatis sunt maiores, eveniet
-                    ratione modi est ea tempore quos. Itaque eaque veritatis quia suscipit, voluptas dolore explicabo ex
-                    rem?
-                </p>
+            <div class="col-12 col-md-6 bg-success text-white">
+                <p class="fs-4">col-12 bg-success text-white</p>
+                <p>Lorem ipsum dolor sit amet.</p>
                 <input type="submit" class="btn btn-info" value="Save">
             </div>
             <div class="col-12 bg-warning">
-                <p class="fs-4">class="col-6 bg-warning"</p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis veritatis sunt maiores, eveniet
-                    ratione modi est ea tempore quos. Itaque eaque veritatis quia suscipit, voluptas dolore explicabo ex
-                    rem?
-                </p>
+                <p class="fs-4">col-6 bg-warning</p>
+                <p>Lorem ipsum dolor sit amet.</p>
                 <input type="submit" class="btn btn-success" value="Save">
             </div>
+            <div class="col text-center">
+                    <p class="fs-6 text-uppercase">Fila dentro de una col.</p>
+                    <div class="row text-light text-center">
+                        <div class="col-12 col-md-6 bg-dark ">Col 1</div>
+                        <div class="col-12 col-md-6 bg-danger">Col 2</div>
+                    </div>
+            </div>
+        </div>
+
+        <p class="fs-5 text-capitalize text-center">row align-items</p>
+        <div class="row align-items-start text-center  col-height">
+            <div class="col-12 col-md-4 bg-success">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-12 col-md-4 bg-light">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-12 col-md-4 bg-danger">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="row align-items-center text-center  col-height">
+            <div class="col-12 col-md-4 bg-success">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-12 col-md-4 bg-light">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-12 col-md-4 bg-danger">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="row align-items-end text-center  col-height">
+            <div class="col-12 col-md-4 bg-success">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-12 col-md-4 bg-light">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-12 col-md-4 bg-danger">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <p class="fs-5 text-capitalize text-center">align-self se aplica por col.</p>
+        <div class="row text-center col-height">
+            <div class="col-12 col-md-4 bg-success align-self-start">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-12 col-md-4 bg-light align-self-center">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-12 col-md-4 bg-danger align-self-end">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        
+
+        <p class="text-uppercase fs-5 text-center">justify-content (alinea columnas horizontal)</p>
+        <div class="row justify-content-start">
+            <div class="col-4 bg-dark text-light">
+                <p>Columna 1 </p>
+            </div>
+            <div class="col-4 bg-danger text-light">
+                <p>Columna 2 </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 bg-dark text-light">
+                <p>Columna 1 </p>
+            </div>
+            <div class="col-4 bg-danger text-light">
+                <p>Columna 2 </p>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-4 bg-dark text-light">
+                <p>Columna 1 </p>
+            </div>
+            <div class="col-4 bg-danger text-light">
+                <p>Columna 2 </p>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-4 bg-dark text-light">
+                <p>Columna 1 </p>
+            </div>
+            <div class="col-4 bg-danger text-light">
+                <p>Columna 2 </p>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-4 bg-dark text-light">
+                <p>Columna 1 </p>
+            </div>
+            <div class="col-4 bg-danger text-light">
+                <p>Columna 2 </p>
+            </div>
+        </div>
+        <div class="row justify-content-evenly">
+            <div class="col-4 bg-dark text-light">
+                <p>Columna 1 </p>
+            </div>
+            <div class="col-4 bg-danger text-light">
+                <p>Columna 2 </p>
+            </div>
+        </div>
+
+
+        <p class="lead">Gutters: gx-0 al gx-5, gy-0 al gy-5 espaciados horizontal y vertical</p>
+        <div class="row g-0">
+            <div class="col-6"><div class="contenido">Columna 1</div></div>
+            <div class="col-6"><div class="contenido">Columna 2</div></div>
+            <div class="col-6"><div class="contenido">Columna 3</div></div>
+            <div class="col-6"><div class="contenido">Columna 4</div></div>
         </div>
     </div>
+
+   
 
     <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
