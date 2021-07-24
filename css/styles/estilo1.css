@@ -1,0 +1,7 @@
+body {
+  background-color: #f0ebeb;
+}
+.row > div {
+  padding: 10px;
+  border: 1px solid #f0f0f0;
+}
